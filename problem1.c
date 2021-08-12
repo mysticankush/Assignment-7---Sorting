@@ -2,8 +2,8 @@
  * Compilation : gcc problem1.c
  * Execution : ./a.out
  *
- * Ankush Chhabra 1910990144 11-08-2021
- * Assignment_7 -> Sorting
+ * Ankush Chhabra 1910990144 5-08-2021
+ * Assignment_5 -> Recursion
 */
 #include<stdio.h>
 
@@ -19,6 +19,8 @@ int merge(int a[],int l,int mid,int r)
         if(a[i]>a[j])
         {
             mergedarray[idx++]=a[j++];
+            //If a[i] > a[j] then it means all the elements from i to mid will be greater than a[j] because array a from l to mid is sorted . 
+            //Therefore , count all the elements as the part of inversion from i to mid
             inversions+=(mid-i+1);
         }
         else
