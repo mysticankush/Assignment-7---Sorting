@@ -60,7 +60,7 @@ int mergesort(int a[],int l,int r)
     return inversions;
 }
 int main() {
-    //taking input of sizeo of array
+    //taking input of size of array
     int n;
     scanf("%d",&n);
     int a[n+2];
