@@ -2,8 +2,8 @@
  * Compilation : gcc problem1.c
  * Execution : ./a.out
  *
- * Ankush Chhabra 1910990144 5-08-2021
- * Assignment_5 -> Recursion
+ * Ankush Chhabra 1910990144 11-08-2021
+ * Assignment_7 -> Sorting
 */
 #include<stdio.h>
 
